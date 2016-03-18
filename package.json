@@ -1,11 +1,11 @@
 {
-  "name": "mathquill",
-  "description": "Easily type math in your webapp",
+  "name": "node-mathquill",
+  "description": "Easily type math in your webapp (published to npm for node/webpack builds)",
   "version": "0.10.0",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mathquill/mathquill.git"
+    "url": "https://github.com/FB-PLP/mathquill.git"
   },
   "dependencies": {
     "pjs": "3.x"

@@ -1,3 +1,5 @@
+*NOTE*: This is just a pass through clone that publishes the built files to npm for webpack builds
+
 # [MathQuill](http://mathquill.github.com)
 
 by [Han][], [Jeanine][], and [Mary][] (maintainers@mathquill.com)
