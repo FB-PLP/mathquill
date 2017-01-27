@@ -1,6 +1,6 @@
 /*
- * MathQuill v0.10.1               http://mathquill.com
- * by Han, Jeanine, and Mary  maintainers@mathquill.com
+ * MathQuill v0.10.1, by Han, Jeanine, and Mary
+ * http://mathquill.com | maintainers@mathquill.com
  *
  * This Source Code Form is subject to the terms of the
  * Mozilla Public License, v. 2.0. If a copy of the MPL
@@ -10,7 +10,7 @@
 @font-face {
   font-family: Symbola;
   src: url(font/Symbola.eot);
-  src: local("Symbola Regular"), local("Symbola"), url(font/Symbola.woff2) format("woff2"), url(font/Symbola.woff) format("woff"), url(font/Symbola.ttf) format("truetype"), url(font/Symbola.otf) format("opentype"), url(font/Symbola.svg#Symbola) format("svg");
+  src: local("Symbola Regular"), local("Symbola"), url(font/Symbola.woff2) format("woff2"), url(font/Symbola.woff) format("woff"), url(font/Symbola.ttf) format("truetype"), url(font/Symbola.svg#Symbola) format("svg");
 }
 .mq-editable-field {
   display: -moz-inline-box;
@@ -321,14 +321,26 @@
   margin-right: .1em;
   padding-top: 1px;
 }
-.mq-math-mode .mq-vector-prefix {
+.mq-math-mode .mq-diacritic-above {
   display: block;
   text-align: center;
-  line-height: .25em;
-  margin-bottom: -0.1em;
-  font-size: 0.75em;
+  line-height: .4em;
 }
-.mq-math-mode .mq-vector-stem {
+.mq-math-mode .mq-diacritic-stem {
+  display: block;
+  text-align: center;
+}
+.mq-math-mode .mq-hat-prefix {
+  display: block;
+  text-align: center;
+  line-height: .95em;
+  margin-bottom: -0.7em;
+  transform: scaleX(1.5);
+  -moz-transform: scaleX(1.5);
+  -o-transform: scaleX(1.5);
+  -webkit-transform: scaleX(1.5);
+}
+.mq-math-mode .mq-hat-stem {
   display: block;
 }
 .mq-math-mode .mq-large-operator {
@@ -436,6 +448,7 @@
   resize: none;
   width: 1px;
   height: 1px;
+  box-sizing: content-box;
 }
 .mq-math-mode .mq-matrixed {
   background: white;
