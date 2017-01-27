@@ -1,9 +1,7 @@
-/tmp
-
-# build tools
 /node_modules
 
 # dist
 /build/.exists-*
 /mathquill-*.tgz
 /mathquill.github.com
+/build
